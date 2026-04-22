@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="#D9A757">
+  <!-- Outer shield outline (stroke) -->
+  <path d="M32 4 8 12v18c0 14 10 24 24 30 14-6 24-16 24-30V12L32 4zm0 4 20 6.7V30c0 12-8 20-20 26-12-6-20-14-20-26V14.7L32 8z" />
+  <!-- Inner filled shield with checkmark -->
+  <path d="M32 14 16 19.3V30c0 10 7 17 16 22 9-5 16-12 16-22V19.3L32 14zm-2.5 23.5L22 30l2.5-2.5 5 5 10-10 2.5 2.5-12.5 12.5z"/>
+</svg>

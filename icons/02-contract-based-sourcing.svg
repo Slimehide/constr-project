@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="#D9A757">
+  <!-- Document / contract with folded upper-left corner, text block and stamp -->
+  <path d="M18 6 8 16v44a2 2 0 0 0 2 2h44a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2H18zm0 2v8h-8l8-8zm-4 18h36v24H14V26z"/>
+  <!-- Stamp/seal bottom right -->
+  <circle cx="48" cy="52" r="4" fill="#D9A757"/>
+  <path d="M45 55h6v2h-6z" fill="#0d1222"/>
+</svg>

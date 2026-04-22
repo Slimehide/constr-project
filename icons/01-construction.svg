@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="#D9A757">
+  <!-- Construction hard hat -->
+  <!-- Dome of helmet -->
+  <path d="M32 14c-9 0-16 6-17 16h34c-1-10-8-16-17-16zm-3 4h6v10h-6V18z"/>
+  <!-- Brim of helmet (wider than dome) -->
+  <path d="M6 32h52v6H6zm-2 6h56v4H4z"/>
+  <!-- Vent strips on helmet -->
+  <path d="M18 22h2v8h-2zm26 0h2v8h-2z"/>
+</svg>

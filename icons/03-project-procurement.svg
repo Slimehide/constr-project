@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="#D9A757">
+  <!-- Cityscape / buildings with archway -->
+  <!-- Central tall building with arched top -->
+  <path d="M28 8c0-2 1.8-4 4-4s4 2 4 4v8h-2v40h-4V16h-2V8z"/>
+  <path d="M22 20h20v6H22z"/>
+  <!-- Left building -->
+  <path d="M6 30h16v26H6V30zm3 4v4h4v-4H9zm6 0v4h4v-4h-4zm-6 8v4h4v-4H9zm6 0v4h4v-4h-4zm-6 8v6h10v-6H9z"/>
+  <!-- Right building -->
+  <path d="M42 30h16v26H42V30zm3 4v4h4v-4h-4zm6 0v4h4v-4h-4zm-6 8v4h4v-4h-4zm6 0v4h4v-4h-4zm-6 8v6h10v-6H45z"/>
+  <!-- Baseline -->
+  <path d="M4 56h56v4H4z"/>
+</svg>
