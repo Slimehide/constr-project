@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="#D9A757">
+  <!-- Clock / refresh icon (custom sourcing - time-sensitive supply) -->
+  <!-- Main circle body (clock) -->
+  <path d="M34 12a20 20 0 1 1-18.7 27.1l3.7-1.4A16 16 0 1 0 34 16v4h-4V12h4z"/>
+  <!-- Refresh arrow pointing left -->
+  <path d="M30 8 16 14l14 6V8z"/>
+  <!-- Clock hands (pointing to ~3 o'clock) -->
+  <path d="M33 22h2v12h8v2h-10z"/>
+</svg>

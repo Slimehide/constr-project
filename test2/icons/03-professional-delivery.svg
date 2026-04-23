@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="#D9A757">
+  <!-- Delivery truck side view -->
+  <!-- Cab on right side -->
+  <path d="M4 20h32v26H4z"/>
+  <!-- Windshield (cutout) -->
+  <path d="M8 24h8v8H8z" fill="#0d1222"/>
+  <!-- Headlight + grille -->
+  <path d="M4 36h6v4H4z" fill="#0d1222"/>
+  <!-- Cargo cab (back) -->
+  <path d="M36 26h16l6 8v12H36V26z"/>
+  <!-- Rear window -->
+  <path d="M40 30h10v8H40z" fill="#0d1222"/>
+  <!-- Roof line -->
+  <path d="M8 16h28v6H8z"/>
+  <!-- Wheels -->
+  <circle cx="16" cy="50" r="6"/>
+  <circle cx="16" cy="50" r="2.5" fill="#0d1222"/>
+  <circle cx="48" cy="50" r="6"/>
+  <circle cx="48" cy="50" r="2.5" fill="#0d1222"/>
+</svg>

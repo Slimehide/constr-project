@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="#D9A757">
+  <!-- Suspension bridge -->
+  <!-- Two towers -->
+  <path d="M14 8l-4 8v36h4V20l4 2V52h-4v-2h4l-4-2v-2h4V16l-4-8zm36 0-4 8v36h4V20l4 2V52h-4v-2h4l-4-2v-2h4V16l-4-8z" opacity="0"/>
+  <!-- Cleaner suspension bridge -->
+  <!-- Left tower (A-frame) -->
+  <path d="M12 6l-2 4v2h8v-2l-2-4h-4zm-2 8h8v36h4V14h-16v36h4V14z" opacity="0"/>
+  <!-- Simpler approach: two A-frame towers with cables -->
+  <!-- Left A-frame tower -->
+  <path d="M14 6 8 48h4l4-28 4 28h4L18 6h-4zm0 4 .8 6h2.4L18 10h-4z"/>
+  <!-- Right A-frame tower -->
+  <path d="M46 6l-6 42h4l4-28 4 28h4L50 6h-4zm0 4 .8 6h2.4L50 10h-4z"/>
+  <!-- Main suspension cable (curved) -->
+  <path d="M10 14c10 8 34 8 44 0v4c-10 8-34 8-44 0v-4z"/>
+  <!-- Deck/road -->
+  <path d="M4 48h56v4H4z"/>
+  <!-- Vertical suspension cables -->
+  <path d="M24 18h2v30h-2zm12 0h2v30h-2zm-6 0h2v30h-2zm12 0h2v30h-2z"/>
+</svg>

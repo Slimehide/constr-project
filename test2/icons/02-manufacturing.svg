@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="#D9A757">
+  <!-- Factory with smokestack -->
+  <!-- Smokestack on left -->
+  <path d="M8 16h8v20H8V16z"/>
+  <!-- Main building with saw-tooth roof -->
+  <path d="M16 36v-8l12 8v-8l12 8v-8l16 12v16H16V36z"/>
+  <!-- Base/floor -->
+  <path d="M4 54h60v6H4z"/>
+  <!-- Smoke puffs -->
+  <circle cx="10" cy="10" r="3"/>
+  <circle cx="16" cy="6" r="2.5"/>
+</svg>
