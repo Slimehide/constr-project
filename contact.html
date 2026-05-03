@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en" class="docs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=1010" />
+  <title>Contact &mdash; H-CLEER Import &amp; Export Inc.</title>
+  <meta name="description" content="Contact H-CLEER Import & Export Inc. for pricing, availability, and global supply inquiries. Email hc@hcleerimportex.com or call our team." />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#F4E9C9" />
+  <link rel="canonical" href="https://h-cleer.com/contact.html" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body class="products contact-page markets docs">
+
+  <header class="nav secondary markets" role="banner">
+    <div class="container nav__inner">
+     <div class="outer__header">
+      <div class="logo">
+        <a href="index.html" aria-label="H-CLEER Import & Export home">
+          <img src="icons/logo.png" alt="H-CLEER Import & Export Inc. logo" width="400" height="auto">
+        </a>
+      </div>
+
+      <button class="menu__button" type="button" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav__menu" id="primary-navigation" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="index.html#about">ABOUT US</a></li>
+          <li><a href="products.html">PRODUCTS</a></li>
+          <li><a href="index.html#supply">SUPPLY SOLUTIONS</a></li>
+          <li><a href="markets.html">MARKETS</a></li>
+          <li><a href="documents.html">DOCUMENTS</a></li>
+          <li><a href="contact.html" class="is-active">CONTACT</a></li>
+        </ul>
+      </nav>
+     </div>
+    </div>
+  </header>
+
+  <main class="contact__main">
+    <div class="container">
+
+      <div class="products__title-wrap">
+        <div class="products__title">
+          <span></span>
+          <h1>CONTACT H-CLEER IMPORT &amp; EXPORT INC.</h1>
+          <span></span>
+        </div>
+        <p class="products__subtitle">For pricing, availability, and global supply inquiries, please contact our team.</p>
+      </div>
+
+      <div class="contact__layout">
+
+        <section class="contact__form-card" aria-labelledby="contact-form-title">
+          <div class="cf__head">
+            <h2 id="contact-form-title">SEND US A MESSAGE</h2>
+          </div>
+
+          <form class="cf__form" id="contact-form" action="send.php" method="post" enctype="multipart/form-data" novalidate>
+            <div class="cf__row">
+              <label class="cf__field">
+                <span class="cf__label">Company Name<span> *</span></span>
+                <input type="text" name="company" required autocomplete="organization">
+              </label>
+              <label class="cf__field">
+                <span class="cf__label">Contact Name<span> *</span></span>
+                <input type="text" name="contact_name" required autocomplete="name">
+              </label>
+            </div>
+
+            <div class="cf__row">
+              <label class="cf__field">
+                <span class="cf__label">Email Address<span> *</span></span>
+                <input type="email" name="email" required autocomplete="email">
+              </label>
+              <label class="cf__field">
+                <span class="cf__label">Phone Number</span>
+                <input type="tel" name="phone" autocomplete="tel">
+              </label>
+            </div>
+
+            <div class="cf__row">
+              <label class="cf__field">
+                <span class="cf__label">Product Interest<span> *</span></span>
+                <select name="product_interest" required>
+                  <option value="">Select a product...</option>
+                  <option>Aluminum Products</option>
+                  <option>Steel Products</option>
+                  <option>Iron Products</option>
+                  <option>Ferro Alloys</option>
+                  <option>Other / General Inquiry</option>
+                </select>
+              </label>
+              <label class="cf__field">
+                <span class="cf__label">Quantity (MT)</span>
+                <input type="text" name="quantity" inputmode="numeric" placeholder="e.g. 500">
+              </label>
+            </div>
+
+            <div class="cf__row">
+              <label class="cf__field">
+                <span class="cf__label">Delivery Terms</span>
+                <select name="delivery_terms">
+                  <option value="">Select terms...</option>
+                  <option>FOB</option>
+                  <option>CIF</option>
+                  <option>EXW</option>
+                </select>
+              </label>
+              <label class="cf__field">
+                <span class="cf__label">Destination Port</span>
+                <input type="text" name="destination_port" placeholder="e.g. Port of Hamburg">
+              </label>
+            </div>
+
+            <label class="cf__field cf__field--full">
+              <span class="cf__label">Message<span>*</span></span>
+              <textarea name="message" rows="5" required placeholder="Please share details about your requirements..."></textarea>
+            </label>
+
+            <div class="cf__field cf__field--full cf__upload">
+              <span class="cf__label">Signed Documents <span class="cf__optional">(optional &mdash; you can attach more than one)</span></span>
+              <label class="cf__file" for="signed-documents">
+                <span class="cf__file-btn">CHOOSE FILES</span>
+                <span class="cf__file-name" id="signed-documents-name">No files selected</span>
+                <input type="file" id="signed-documents" name="signed_documents[]" multiple accept=".pdf,.doc,.docx,.odt,.rtf,.png,.jpg,.jpeg,.gif,.webp,.tif,.tiff">
+              </label>
+              <ul class="cf__file-list" id="signed-documents-list" hidden></ul>
+              <p class="cf__hint">Attach signed LOI, agreements, RFQ, or supporting documents (PDF, DOC, JPG, PNG &mdash; up to 10 MB each, 25 MB total).</p>
+            </div>
+
+            <div class="cf__actions">
+              <button type="submit" class="cf__submit">SEND MESSAGE <span class="cf__submit-arrow">›</span></button>
+              <p class="cf__status" id="contact-status" role="status" aria-live="polite"></p>
+            </div>
+          </form>
+        </section>
+
+        <aside class="contact__info-card" aria-label="Company contact information">
+          <div class="ci__head">
+            <p class="ci__name">H-CLEER IMPORT &amp; EXPORT INC.</p>
+            <p class="ci__tag">Your strategic partner in industrial supply</p>
+          </div>
+
+          <ul class="ci__list">
+            <li>
+              <span class="ci__icon"></span>
+              <div>
+                <p class="ci__label">EMAIL</p>
+                <a href="mailto:hc@hcleerimportex.com" class="ci__value">hc@hcleerimportex.com</a>
+              </div>
+            </li>
+            <li>
+              <span class="ci__icon"></span>
+              <div>
+                <p class="ci__label">PHONE</p>
+                <a href="tel:+17862844464" class="ci__value">+1 786-284-4464</a>
+              </div>
+            </li>
+            <li>
+              <span class="ci__icon"></span>
+              <div>
+                <p class="ci__label">PHONE</p>
+                <a href="tel:+19543536560" class="ci__value">+1 954-353-6560</a>
+              </div>
+            </li>
+            <li>
+              <span class="ci__icon"></span>
+              <div>
+                <p class="ci__label">ADDRESS</p>
+                <p class="ci__value">P.O. BOX 1913,<br>Hallandale, FL 33008, USA</p>
+              </div>
+            </li>
+          </ul>
+
+          <div class="ci__hours">
+            <p class="ci__hours-title"><span class="ci__icon"></span> BUSINESS HOURS</p>
+            <p class="ci__hours-text">Mon &ndash; Fri &nbsp;9:00 AM &ndash; 6:00 PM (EST)</p>
+            <p class="ci__hours-text">Global support available on request</p>
+          </div>
+        </aside>
+
+      </div>
+
+
+    </div>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
