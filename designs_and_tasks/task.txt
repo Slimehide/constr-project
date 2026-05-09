@@ -1,0 +1,178 @@
+When I click “Submit Your Documents” on mobile, it opens the phone mail app selection screen.
+
+
+
+Please change this so it looks more professional:
+
+
+
+- The button should open a clean contact/submit form on the website, or
+- It should directly open an email draft to hc@hcleerimportex.com with the subject “Document Submission – H-CLEER Import & Export Inc.”
+
+
+
+Also, please make sure the user clearly understands they must attach the completed documents before sending.
+
+
+
+Please remove the current Supply Solutions menu link that only scrolls down inside the homepage.
+
+
+
+We need Supply Solutions to be a real separate page, consistent with the rest of the website.
+
+
+
+Also, please add the Documents page/menu back because it is very important for the business process.
+
+
+
+Final menu should be:
+Home | About Us | Products | Supply Solutions | Markets | Documents | Contact
+
+
+
+The “Request a Quote” button should lead to Contact or Quote form.
+
+Yes, I see.
+
+
+
+Please fix the button so it redirects to the Contact page where the form is.
+
+
+
+Also, make sure the Contact page is clean, professional, and includes:
+
+
+
+- Company name
+- Email: hc@hcleerimportex.com
+- Fields: Name, Company, Email, Product, Quantity, Message
+
+
+
+And please test it on mobile to make sure it does NOT open the phone mail app anymore.
+
+
+
+Please make the email in the footer clickable so it opens an email draft to hc@hcleerimportex.com.
+
+
+
+
+I want to add this process image to the Homepage.
+
+
+
+Please place it as a new section titled:
+“How Our Process Works”
+
+
+
+Position it after the main sections (below Capabilities / Supply Solutions / Markets).
+
+
+
+Make sure it fits the design style (same colors, spacing, and professional look).Please add this image optimized for web performance (compressed and properly sized).
+
+
+
+Make sure it does not affect page loading speed.
+
+
+
+It should be responsive and display correctly on mobile and desktop.
+
+
+
+
+
+
+I want to add this process image to the Homepage.
+
+
+
+Please place it as a section titled:
+“How Our Process Works”
+
+
+
+Also, make sure the image uses our official H-CLEER logo (same style as the website) and matches the overall design (colors, spacing, and professional look).
+
+
+
+The image should be optimized for web (compressed) and display correctly on mobile and desktop.
+
+
+
+Place it below the main sections (after Capabilities / Supply Solutions / Markets).
+
+
+
+
+All document files (PDFs) are not working correctly.
+
+
+
+They download but each file is only about 1–2 KB, which means they are empty or corrupted.
+
+
+
+None of the PDFs open (LOI, RFQ, Invoice, Supply Agreement, etc.).
+
+
+
+Please replace all document files with the correct, fully functional PDF versions and test each one before delivery.
+
+
+
+This section is critical for the business and must work properly.
+
+
+
+
+The navigation menu is not consistent across pages.
+
+
+
+On the Homepage, “Documents” and “Contact” are missing from the menu.
+
+
+
+However, they appear correctly on other pages like Products.
+
+
+
+Please make sure the menu is identical and consistent on all pages:
+Home | About Us | Products | Supply Solutions | Markets | Documents | Contact
+
+
+
+This is very important for user navigation and professional presentation.
+
+
+
+
+
+Thank you for the updates so far.
+
+
+
+Before finalizing, there are a few remaining items to complete:
+
+
+
+1. About Us page – it must display the full design correctly (not partial).
+2. Supply Solutions – should be a complete and professional standalone page.
+3. Markets page – needs stronger business content (industries, buyers, capabilities).
+4. Documents – all PDF files must be replaced with fully working versions (current files are corrupted).
+5. Homepage – add the “How Our Process Works” section using the image I provided.
+
+
+
+Also, please ensure navigation is consistent across all pages.
+
+
+
+Once these items are completed, we can finalize everything.
