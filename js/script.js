@@ -174,6 +174,29 @@
       fileInput.addEventListener('change', renderFileList);
     }
 
+    // When user arrives from the Documents page submit-flow, highlight the
+    // file upload area and pre-select a sensible product interest so the
+    // form clearly invites them to attach their signed documents.
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('submit') === 'documents' || window.location.hash === '#submit-documents') {
+      const upload = contactForm.querySelector('.cf__upload');
+      if (upload) {
+        upload.classList.add('cf__upload--highlight');
+        setTimeout(() => {
+          upload.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }, 200);
+      }
+      const productSelect = contactForm.elements['product_interest'];
+      if (productSelect && !productSelect.value) {
+        productSelect.value = 'Other / General Inquiry';
+      }
+      const messageField = contactForm.elements['message'];
+      if (messageField && !messageField.value) {
+        messageField.value = 'Document Submission – please find my signed documents attached for your review.';
+      }
+      setStatus('Please attach your signed documents using the file upload below before sending.', null);
+    }
+
     const requiredFields = ['company', 'contact_name', 'email', 'product_interest', 'message'];
 
     contactForm.addEventListener('submit', async (e) => {

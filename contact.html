@@ -1,22 +1,23 @@
 <!DOCTYPE html>
-<html lang="en" class="docs">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=1010" />
-  <title>Contact &mdash; H-CLEER Import &amp; Export Inc.</title>
+  <title>Request a Quote &mdash; H-CLEER Import &amp; Export Inc.</title>
   <meta name="description" content="Contact H-CLEER Import & Export Inc. for pricing, availability, and global supply inquiries. Email hc@hcleerimportex.com or call our team." />
   <meta name="robots" content="index, follow" />
-  <meta name="theme-color" content="#F4E9C9" />
+  <meta name="theme-color" content="#0A0D10" />
   <link rel="canonical" href="https://h-cleer.com/contact.html" />
 
   <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/redesign.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
-<body class="products contact-page markets docs">
+<body class="rd-about">
 
-  <header class="nav secondary markets" role="banner">
+  <header class="nav" role="banner">
     <div class="container nav__inner">
      <div class="outer__header">
       <div class="logo">
@@ -24,73 +25,64 @@
           <img src="icons/logo.png" alt="H-CLEER Import & Export Inc. logo" width="400" height="auto">
         </a>
       </div>
-
       <button class="menu__button" type="button" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-navigation">
-        <span></span>
-        <span></span>
-        <span></span>
+        <span></span><span></span><span></span>
       </button>
-
       <nav class="nav__menu" id="primary-navigation" aria-label="Primary">
         <ul>
           <li><a href="index.html">HOME</a></li>
-          <li><a href="index.html#about">ABOUT US</a></li>
+          <li><a href="about-us.html">ABOUT US</a></li>
           <li><a href="products.html">PRODUCTS</a></li>
-          <li><a href="index.html#supply">SUPPLY SOLUTIONS</a></li>
+          <li><a href="supply-solutions.html">SUPPLY SOLUTIONS</a></li>
           <li><a href="markets.html">MARKETS</a></li>
           <li><a href="documents.html">DOCUMENTS</a></li>
           <li><a href="contact.html" class="is-active">CONTACT</a></li>
         </ul>
+        <a href="contact.html" class="btn btn--gold nav__cta">REQUEST A QUOTE</a>
       </nav>
      </div>
     </div>
   </header>
 
-  <main class="contact__main">
-    <div class="container">
-
-      <div class="products__title-wrap">
-        <div class="products__title">
-          <span></span>
-          <h1>CONTACT H-CLEER IMPORT &amp; EXPORT INC.</h1>
-          <span></span>
-        </div>
-        <p class="products__subtitle">For pricing, availability, and global supply inquiries, please contact our team.</p>
+  <main>
+    <section class="rd-contact__hero">
+      <div class="rd-wrap">
+        <h1>REQUEST<br><span class="gold">A QUOTE</span></h1>
+        <p>Tell us what you need. We'll provide the right solution.<br>Our team will review your inquiry and respond promptly with competitive pricing and delivery information tailored to your requirements.</p>
       </div>
+    </section>
 
-      <div class="contact__layout">
+    <section class="rd-contact__layout">
+      <div class="rd-wrap">
+        <div class="rd-contact__grid">
 
-        <section class="contact__form-card" aria-labelledby="contact-form-title">
-          <div class="cf__head">
-            <h2 id="contact-form-title">SEND US A MESSAGE</h2>
-          </div>
-
-          <form class="cf__form" id="contact-form" action="send.php" method="post" enctype="multipart/form-data" novalidate>
-            <div class="cf__row">
-              <label class="cf__field">
-                <span class="cf__label">Company Name<span> *</span></span>
-                <input type="text" name="company" required autocomplete="organization">
-              </label>
-              <label class="cf__field">
-                <span class="cf__label">Contact Name<span> *</span></span>
-                <input type="text" name="contact_name" required autocomplete="name">
-              </label>
+          <section class="rd-form-card" aria-labelledby="contact-form-title">
+            <div class="rd-form-card__head">
+              <h2 id="contact-form-title">SEND US A MESSAGE</h2>
+              <span class="dot"></span><span class="dot"></span><span class="dot"></span>
             </div>
 
-            <div class="cf__row">
-              <label class="cf__field">
-                <span class="cf__label">Email Address<span> *</span></span>
-                <input type="email" name="email" required autocomplete="email">
+            <form class="rd-form" id="contact-form" action="send.php" method="post" enctype="multipart/form-data" novalidate>
+              <label>
+                <span>Company Name <span class="req">*</span></span>
+                <input type="text" name="company" required autocomplete="organization" placeholder="Enter your company name">
               </label>
-              <label class="cf__field">
-                <span class="cf__label">Phone Number</span>
-                <input type="tel" name="phone" autocomplete="tel">
+              <label>
+                <span>Contact Name <span class="req">*</span></span>
+                <input type="text" name="contact_name" required autocomplete="name" placeholder="Your full name">
               </label>
-            </div>
 
-            <div class="cf__row">
-              <label class="cf__field">
-                <span class="cf__label">Product Interest<span> *</span></span>
+              <label>
+                <span>Email Address <span class="req">*</span></span>
+                <input type="email" name="email" required autocomplete="email" placeholder="you@company.com">
+              </label>
+              <label>
+                <span>Phone Number</span>
+                <input type="tel" name="phone" autocomplete="tel" placeholder="+1 (000) 000-0000">
+              </label>
+
+              <label>
+                <span>Product Interest <span class="req">*</span></span>
                 <select name="product_interest" required>
                   <option value="">Select a product...</option>
                   <option>Aluminum Products</option>
@@ -100,15 +92,13 @@
                   <option>Other / General Inquiry</option>
                 </select>
               </label>
-              <label class="cf__field">
-                <span class="cf__label">Quantity (MT)</span>
+              <label>
+                <span>Quantity (MT)</span>
                 <input type="text" name="quantity" inputmode="numeric" placeholder="e.g. 500">
               </label>
-            </div>
 
-            <div class="cf__row">
-              <label class="cf__field">
-                <span class="cf__label">Delivery Terms</span>
+              <label>
+                <span>Delivery Terms</span>
                 <select name="delivery_terms">
                   <option value="">Select terms...</option>
                   <option>FOB</option>
@@ -116,82 +106,167 @@
                   <option>EXW</option>
                 </select>
               </label>
-              <label class="cf__field">
-                <span class="cf__label">Destination Port</span>
+              <label>
+                <span>Destination Port</span>
                 <input type="text" name="destination_port" placeholder="e.g. Port of Hamburg">
               </label>
-            </div>
 
-            <label class="cf__field cf__field--full">
-              <span class="cf__label">Message<span>*</span></span>
-              <textarea name="message" rows="5" required placeholder="Please share details about your requirements..."></textarea>
-            </label>
-
-            <div class="cf__field cf__field--full cf__upload">
-              <span class="cf__label">Signed Documents <span class="cf__optional">(optional &mdash; you can attach more than one)</span></span>
-              <label class="cf__file" for="signed-documents">
-                <span class="cf__file-btn">CHOOSE FILES</span>
-                <span class="cf__file-name" id="signed-documents-name">No files selected</span>
-                <input type="file" id="signed-documents" name="signed_documents[]" multiple accept=".pdf,.doc,.docx,.odt,.rtf,.png,.jpg,.jpeg,.gif,.webp,.tif,.tiff">
+              <label class="full">
+                <span>Message <span class="req">*</span></span>
+                <textarea name="message" rows="5" required placeholder="Please share details about your requirements..."></textarea>
               </label>
-              <ul class="cf__file-list" id="signed-documents-list" hidden></ul>
-              <p class="cf__hint">Attach signed LOI, agreements, RFQ, or supporting documents (PDF, DOC, JPG, PNG &mdash; up to 10 MB each, 25 MB total).</p>
-            </div>
 
-            <div class="cf__actions">
-              <button type="submit" class="cf__submit">SEND MESSAGE <span class="cf__submit-arrow">›</span></button>
-              <p class="cf__status" id="contact-status" role="status" aria-live="polite"></p>
-            </div>
-          </form>
-        </section>
-
-        <aside class="contact__info-card" aria-label="Company contact information">
-          <div class="ci__head">
-            <p class="ci__name">H-CLEER IMPORT &amp; EXPORT INC.</p>
-            <p class="ci__tag">Your strategic partner in industrial supply</p>
-          </div>
-
-          <ul class="ci__list">
-            <li>
-              <span class="ci__icon"></span>
-              <div>
-                <p class="ci__label">EMAIL</p>
-                <a href="mailto:hc@hcleerimportex.com" class="ci__value">hc@hcleerimportex.com</a>
+              <div class="rd-form__submit">
+                <button type="submit">SEND INQUIRY</button>
               </div>
-            </li>
-            <li>
-              <span class="ci__icon"></span>
-              <div>
-                <p class="ci__label">PHONE</p>
-                <a href="tel:+17862844464" class="ci__value">+1 786-284-4464</a>
-              </div>
-            </li>
-            <li>
-              <span class="ci__icon"></span>
-              <div>
-                <p class="ci__label">PHONE</p>
-                <a href="tel:+19543536560" class="ci__value">+1 954-353-6560</a>
-              </div>
-            </li>
-            <li>
-              <span class="ci__icon"></span>
-              <div>
-                <p class="ci__label">ADDRESS</p>
-                <p class="ci__value">P.O. BOX 1913,<br>Hallandale, FL 33008, USA</p>
-              </div>
-            </li>
-          </ul>
+              <p class="rd-form__status" id="contact-status" role="status" aria-live="polite"></p>
+            </form>
+          </section>
 
-          <div class="ci__hours">
-            <p class="ci__hours-title"><span class="ci__icon"></span> BUSINESS HOURS</p>
-            <p class="ci__hours-text">Mon &ndash; Fri &nbsp;9:00 AM &ndash; 6:00 PM (EST)</p>
-            <p class="ci__hours-text">Global support available on request</p>
-          </div>
-        </aside>
+          <aside class="rd-info-card" aria-label="Company contact information">
+            <h3>H-CLEER IMPORT &amp; EXPORT INC.</h3>
+            <p class="tag">Your strategic partner in industrial supply</p>
+            <ul>
+              <li>
+                <span class="ic"><?xml version="1.0" encoding="utf-8"?>
+                <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M3.75 5.25L3 6V18L3.75 18.75H20.25L21 18V6L20.25 5.25H3.75ZM4.5 7.6955V17.25H19.5V7.69525L11.9999 14.5136L4.5 7.6955ZM18.3099 6.75H5.68986L11.9999 12.4864L18.3099 6.75Z" fill="#080341"/>
+                </svg></span>
+                <div>
+                  <p class="lbl">Email</p>
+                  <p class="val"><a href="mailto:hc@hcleerimportex.com">hc@hcleerimportex.com</a></p>
+                </div>
+              </li>
+              <li>
+                <span class="ic"><?xml version="1.0" encoding="utf-8"?>
+                <svg width="800px" height="800px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 5V1H7V5L4.5 7.5L8.5 11.5L11 9H15V15H11C5.47715 15 1 10.5228 1 5Z" fill="#000000"/>
+                </svg></span>
+                <div>
+                  <p class="lbl">Phone</p>
+                  <p class="val"><a href="tel:+17862844464">+1 786-284-4464</a></p>
+                </div>
+              </li>
+              <li>
+                <span class="ic"><?xml version="1.0" encoding="utf-8"?>
+                <svg width="800px" height="800px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 5V1H7V5L4.5 7.5L8.5 11.5L11 9H15V15H11C5.47715 15 1 10.5228 1 5Z" fill="#000000"/>
+                </svg></span>
+                <div>
+                  <p class="lbl">Phone</p>
+                  <p class="val"><a href="tel:+19543536560">+1 954-353-6560</a></p>
+                </div>
+              </li>
+              <li>
+                <span class="ic"><?xml version="1.0" encoding="utf-8"?>
+                <svg width="800px" height="800px" viewBox="0 0 1024 1024" fill="#000000" class="icon"  version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M512 1012.8c-253.6 0-511.2-54.4-511.2-158.4 0-92.8 198.4-131.2 283.2-143.2h3.2c12 0 22.4 8.8 24 20.8 0.8 6.4-0.8 12.8-4.8 17.6-4 4.8-9.6 8.8-16 9.6-176.8 25.6-242.4 72-242.4 96 0 44.8 180.8 110.4 463.2 110.4s463.2-65.6 463.2-110.4c0-24-66.4-70.4-244.8-96-6.4-0.8-12-4-16-9.6-4-4.8-5.6-11.2-4.8-17.6 1.6-12 12-20.8 24-20.8h3.2c85.6 12 285.6 50.4 285.6 143.2 0.8 103.2-256 158.4-509.6 158.4z m-16.8-169.6c-12-11.2-288.8-272.8-288.8-529.6 0-168 136.8-304.8 304.8-304.8S816 145.6 816 313.6c0 249.6-276.8 517.6-288.8 528.8l-16 16-16-15.2zM512 56.8c-141.6 0-256.8 115.2-256.8 256.8 0 200.8 196 416 256.8 477.6 61.6-63.2 257.6-282.4 257.6-477.6C768.8 172.8 653.6 56.8 512 56.8z m0 392.8c-80 0-144.8-64.8-144.8-144.8S432 160 512 160c80 0 144.8 64.8 144.8 144.8 0 80-64.8 144.8-144.8 144.8zM512 208c-53.6 0-96.8 43.2-96.8 96.8S458.4 401.6 512 401.6c53.6 0 96.8-43.2 96.8-96.8S564.8 208 512 208z" fill="" /></svg></span>
+                <div>
+                  <p class="lbl">Address</p>
+                  <p class="val">P.O. BOX 1913,<br>Hallandale, FL 33008, USA</p>
+                </div>
+              </li>
+              <li>
+                <span class="ic"><?xml version="1.0" encoding="utf-8"?>
+                <svg width="800px" height="800px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16ZM7 3V8.41421L10.2929 11.7071L11.7071 10.2929L9 7.58579V3H7Z" fill="#000000"/>
+                </svg></span>
+                <div>
+                  <p class="lbl">Business Hours</p>
+                  <p class="val">Mon &ndash; Fri &nbsp;9:00 AM &ndash; 6:00 PM (EST)<br>Global support available on request</p>
+                </div>
+              </li>
+            </ul>
+          </aside>
 
+        </div>
       </div>
+    </section>
 
+    <section class="rd-support">
+      <div class="rd-wrap">
+        <div class="rd-support__grid">
+          <div class="item">
+            <span class="ic"><?xml version="1.0" encoding="utf-8"?>
+        <svg fill="#000000" width="800px" height="800px" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
+            <path d="M211.733 1260.088c16.32 131.947 68.587 258.027 151.254 364.8l-168.64 130.667C88.213 1618.488 21.013 1456.14 0 1286.22Zm1654.155-391.584c18.88 57.813 32.32 117.76 39.787 178.24 4.8 40 7.146 79.147 7.146 119.787 0 40.533-2.346 79.68-7.146 119.466-21.014 170.134-88.214 332.48-194.347 469.547l-168.64-130.667c82.667-106.773 134.933-232.853 151.253-364.8 3.734-30.72 5.547-61.76 5.547-93.546 0-31.894-1.813-62.934-5.547-93.867-5.866-46.613-16.106-93.013-30.72-137.813Zm-135.125-421.707 150.826 150.827-875.413 875.413-519.893-519.893 150.826-150.827 369.067 369.067 724.587-724.587ZM194.347 577.411l168.64 130.666c-82.667 106.774-134.934 232.854-151.254 364.8L0 1046.744c21.013-169.92 88.213-332.267 194.347-469.333ZM833.14 213.709l26.134 211.734c-132.054 16.213-258.134 68.586-364.8 151.253L363.7 408.056c137.067-106.133 299.307-173.44 469.44-194.347Zm239.456-.01c170.027 21.013 332.374 88.213 469.334 194.346l-130.774 168.64c-106.56-82.666-232.746-135.04-364.693-151.253Z" fill-rule="evenodd"/>
+        </svg></span>
+            <p><b>Fast Response</b>Replies within 24 hours.</p>
+          </div>
+          <div class="item">
+            <span class="ic"><?xml version="1.0" encoding="utf-8"?>
+            <svg width="800px" height="800px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M6.21606 15L6.10495 16H8.11726L8.22837 15H10.003C12.2105 15 14 13.2105 14 11.003C14 9.12963 12.6989 7.5076 10.8701 7.1012L9.14852 6.71864L9.45059 4H13V1H9.78393L9.89504 0H7.88273L7.77162 1H5.99699C3.78951 1 2 2.78951 2 4.99699C2 6.87037 3.30115 8.4924 5.12992 8.8988L6.85147 9.28136L6.54939 12H3V15H6.21606ZM8.5617 12H10.003C10.5536 12 11 11.5536 11 11.003C11 10.5357 10.6754 10.1311 10.2193 10.0298L8.81528 9.71776L8.5617 12ZM7.1847 6.28223L7.43828 4H5.99699C5.44637 4 5 4.44637 5 4.99699C5 5.46427 5.32455 5.86887 5.78071 5.97023L7.1847 6.28223Z" fill="#000000"/>
+            </svg></span>
+            <p><b>Competitive Pricing</b>Best prices for premium quality.</p>
+          </div>
+          <div class="item">
+            <span class="ic"><?xml version="1.0" encoding="utf-8"?>
+            <svg width="800px" height="800px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="#000000" class="bi bi-geo-alt">
+              <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+              <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+            </svg></span>
+            <p><b>Global Reach</b>Reliable supply across continents.</p>
+          </div>
+          <div class="item">
+            <span class="ic">✓</span>
+            <p><b>Trusted Partner</b>Reliable, transparent and long-term.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section class="rd-cta-banner">
+      <div class="rd-wrap">
+        <h2>LET'S BUILD <span class="gold">SUCCESS TOGETHER</span></h2>
+        <p>Partner with H-CLEER for reliable supply, competitive pricing, and long-term growth.</p>
+        <a href="#contact-form" class="rd-btn rd-btn--gold">REQUEST A QUOTE</a>
+      </div>
+    </section>
+
+    <footer class="rd-footer">
+      <div class="rd-wrap">
+        <div class="rd-footer__top">
+          <div class="rd-footer__logo">
+            <img src="icons/logo.png" alt="H-CLEER">
+            <p>Global strategic supplier of primary and processed industrial metals. Delivering high-quality supply solutions worldwide.</p>
+          </div>
+          <div>
+            <h4>QUICK LINKS</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about-us.html">About Us</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="markets.html">Markets</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>PRODUCTS</h4>
+            <ul>
+              <li>Aluminum</li>
+              <li>Steel</li>
+              <li>Iron</li>
+              <li>Ferro Alloys</li>
+            </ul>
+          </div>
+          <div>
+            <h4>CONTACT US</h4>
+            <p>P.O. BOX 1913<br>Hallandale, FL 33008, USA</p>
+            <p>+1 786-284-4464<br>+1 954-353-6560</p>
+            <p><a href="mailto:hc@hcleerimportex.com">hc@hcleerimportex.com</a></p>
+          </div>
+        </div>
+        <div class="rd-footer__bottom">© 2025 H-CLEER IMPORT &amp; EXPORT INC. — All Rights Reserved.</div>
+      </div>
+    </footer>
+
+    <div class="rd-strip">
+      <ul>
+        <li>RELIABLE SUPPLY</li>
+        <li><span class="dot"></span> TRUSTED PARTNER</li>
+        <li><span class="dot"></span> WE CONNECT</li>
+        <li><span class="dot"></span> WE SUPPLY</li>
+        <li><span class="dot"></span> WE DELIVER</li>
+      </ul>
     </div>
   </main>
 
