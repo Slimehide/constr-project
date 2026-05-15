@@ -866,7 +866,7 @@ body.rd-about{ background:var(--hc-bg); }
   background:
     linear-gradient(180deg, rgba(8,10,14,.65), rgba(8,10,14,.4) 50%, rgba(8,10,14,.6)),
     url('../icons/hero-port.jpg') center/cover no-repeat;
-  padding:180px 0 50px;
+  padding:140px 0 60px;
 }
 .rd-viewer__hero h1{
   font-family:"Bebas Neue", sans-serif;
@@ -1323,4 +1323,31 @@ header:before{
   padding:35px 0px;
   border-top:1px solid rgba(220,167,85,.4);
   border-bottom:1px solid rgba(220,167,85,.4);
+}
+.rd-viewer__hero .rd-wrap{
+  text-align: center;
+}
+.rd-viewer__hero .rd-wrap h1{
+  font-size: 74px;
+  line-height: 88px;
+}
+.rd-hero__crumbs{
+  margin-bottom: 0px;
+}
+.rd-viewer__body{
+  padding:35px 0px;
+}
+.rd-viewer__frame{
+  max-width: 740px;
+}
+.rd-viewer__actions .rd-btn--dark{
+  font-size: 13px;
+  line-height: 17px;
+  padding-left: 12px;
+  padding-right: 12px;
+  min-height: 38px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-radius: 2px;
+  letter-spacing: 0.2px;
 }
